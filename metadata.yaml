@@ -1,0 +1,15 @@
+---
+title: 'Large title'
+subtitle: 'Subtitle'
+author:
+  - name: John Doe
+    affiliation1: Aalborg University, Copenahgen
+    affiliation2: Department of Architecture, Design and Media Technology
+    email: jdoe20@student.aau.dk
+keywords:
+  - Sound and Music Computing
+  - Deep Learning
+lang: en
+babel-lang: english
+...
+

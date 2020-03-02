@@ -1,0 +1,69 @@
+/* front slide */
+.reveal img.logo {
+    border: none;
+    box-shadow: none;
+    margin-top: 40px;
+}
+.reveal h1.title {
+    font-size: 1.6em;
+    color: #191141;
+    text-transform: none;
+    margin-bottom: 0;
+}
+.reveal h2.subtitle {
+    font-size: 1.2em;
+    font-weight: normal;
+    color: #54626E;
+    text-transform: none;
+}
+
+.reveal div.author-box {
+    background-color: #191141;
+    padding: 20px;
+    margin: 30px;
+}
+.reveal .author {
+    font-size: 0.6em;
+    color: white;
+    margin: 0;
+    margin-bottom: 8px;
+}
+.reveal .author-affiliation {
+    font-size: 0.6em;
+    color: white;
+    margin: 0;
+}
+.reveal .author-email {
+    font-size: 0.6em;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    margin-top: 8px;
+}
+
+
+/* other slides */
+.reveal h1 {
+    font-size: 2em;
+    color: #191141;
+    text-transform: none;
+}
+
+.reveal h2 {
+    font-size: 1.5em;
+    color: #191141;
+    text-transform: none;
+}
+
+.reveal ul li {
+    font-size: 0.7em;
+    background-color: white;
+}
+
+.reveal ul + figure {
+    margin-top: 20px;
+}
+
+.reveal figure figcaption {
+    display: none;
+}
