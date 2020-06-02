@@ -7,7 +7,7 @@ FLAGS = --standalone \
 		--from markdown-markdown_in_html_blocks+raw_html \
 		--section-divs \
 		--slide-level=2 \
-		--variable revealjs-url="https://revealjs.com" \
+		--variable revealjs-url="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0" \
 		--variable theme="white" \
 		--variable transition="linear" \
 		--variable width="\"90%\"" \

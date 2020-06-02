@@ -13,8 +13,8 @@ $endif$
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="$revealjs-url$/css/reset.css">
-  <link rel="stylesheet" href="$revealjs-url$/css/reveal.css">
+  <link rel="stylesheet" href="dist/reset.css">
+  <link rel="stylesheet" href="dist/reveal.css">
   <style>
       code{white-space: pre-wrap;}
       span.smallcaps{font-variant: small-caps;}
@@ -30,9 +30,9 @@ $highlighting-css$
   </style>
 $endif$
 $if(theme)$
-  <link rel="stylesheet" href="$revealjs-url$/css/theme/$theme$.css" id="theme">
+  <link rel="stylesheet" href="dist/theme/$theme$.css" id="theme">
 $else$
-  <link rel="stylesheet" href="$revealjs-url$/css/theme/black.css" id="theme">
+  <link rel="stylesheet" href="dist/theme/black.css" id="theme">
 $endif$
 $for(css)$
   <link rel="stylesheet" href="$css$"/>
@@ -45,9 +45,6 @@ $endfor$
     link.href = window.location.search.match( /print-pdf/gi ) ? '$revealjs-url$/css/print/pdf.css' : '$revealjs-url$/css/print/paper.css';
     document.getElementsByTagName( 'head' )[0].appendChild( link );
   </script>
-  <!--[if lt IE 9]>
-  <script src="$revealjs-url$/lib/js/html5shiv.js"></script>
-  <![endif]-->
 $if(math)$
   $math$
 $endif$
@@ -84,7 +81,7 @@ $endfor$
     </div>
   </div>
 
-  <script src="$revealjs-url$/js/reveal.js"></script>
+  <script src="dist/reveal.js"></script>
 
   <script>
 
